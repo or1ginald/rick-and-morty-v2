@@ -1,0 +1,51 @@
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1024px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.controls__button {
+  width: 100%;
+  height: 100%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardsContainer {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 32%));
+  gap: 10px;
+  margin: 0 auto;
+}
+
+
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 977px) {
+  .cardsContainer {
+    justify-content: center;
+  }
+}

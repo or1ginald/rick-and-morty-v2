@@ -1,0 +1,23 @@
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+/dist
+
+# misc
+.DS_Store
+.idea
+.npmrc
+.cache
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# reports
+bundleReport.production.html
