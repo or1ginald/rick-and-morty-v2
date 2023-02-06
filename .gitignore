@@ -21,3 +21,5 @@ yarn-error.log*
 
 # reports
 bundleReport.production.html
+
+.env
